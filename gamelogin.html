@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The math quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="gamelogin.js"></script>
+</head>
+<body class="bodylogin">
+<center>
+    <h1 class="text-success">The Math Quiz</h1>
+    <div id="pllog1">
+        <h2 class="text-info">Player 1 login</h2>
+        <input type="text" placeholder="enter your username" id="player1login">
+        <input type="checkbox">I am Not A Robot 
+    </div>
+    <div id="pllog2">
+        <h2 class="text-info">Player 2 login</h2>
+        <input type="text" placeholder="enter your username" id="player2login">
+        <input type="checkbox">I am Not A Robot 
+    </div>
+    <br><br>
+    <button id="loginbutton" type="button" class="btn btn-primary" width="60%" onclick="adduser()">login</button>
+    <h1 class="text-info" id="signs">+ - x /</h1>
+</center>
+</body>
